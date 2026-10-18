@@ -6,7 +6,7 @@ cask "nagame" do
   name "Nagame"
   name "ながめ"
   desc "Menu bar app that reminds you to look into the distance every 20 minutes"
-  homepage "https://github.com/futaba3/nagame"
+  homepage "https://apps.apple.com/jp/app/nagame/id6775515911?mt=12"
 
   livecheck do
     url :url
