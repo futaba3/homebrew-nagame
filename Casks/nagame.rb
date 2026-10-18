@@ -1,8 +1,9 @@
 cask "nagame" do
   version "1.0.0"
-  sha256 "026e27c9d96229ef8ac1f5d47673a0cbd69d07c4c6de5e40de7742d44cbfe9b5"
+  sha256 "865957f7af9afedf4e6ae85a9a73480f4bc7056bfc2c73ad55f3df71a0be9c21"
 
-  url "https://github.com/futaba3/nagame/releases/download/v#{version}/Nagame-#{version}.dmg"
+  # dmg は tap リポジトリ（futaba3/homebrew-nagame）の Release に置く
+  url "https://github.com/futaba3/homebrew-nagame/releases/download/v#{version}/Nagame-#{version}.dmg"
   name "Nagame"
   name "ながめ"
   desc "Menu bar app that reminds you to look into the distance every 20 minutes"
