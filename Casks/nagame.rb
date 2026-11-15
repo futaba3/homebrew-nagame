@@ -1,6 +1,6 @@
 cask "nagame" do
-  version "1.0.0"
-  sha256 "865957f7af9afedf4e6ae85a9a73480f4bc7056bfc2c73ad55f3df71a0be9c21"
+  version "1.1.0"
+  sha256 "c525b270ffb3acf091e27c72aec141a52a6c78019e6b5827f681420c770e48b1"
 
   # dmg は tap リポジトリ（futaba3/homebrew-nagame）の Release に置く
   url "https://github.com/futaba3/homebrew-nagame/releases/download/v#{version}/Nagame-#{version}.dmg"
