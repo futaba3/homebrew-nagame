@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>Nagame</title>
+    <item>
+      <title>Nagame 1.2.0</title>
+      <pubDate>Mon, 23 Nov 2026 13:26:40 GMT</pubDate>
+      <sparkle:version>1.2.0</sparkle:version>
+      <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
+      <description>&lt;ul&gt;&lt;li&gt;精霊5体のデザインを新しくしました。どんな天気でも笑顔でお知らせします。&lt;/li&gt;&lt;li&gt;アプリアイコンの精霊も、新しいデザインに合わせました。&lt;/li&gt;&lt;li&gt;ながめ画面のメッセージ、はじめの案内、設定の「Nagame について」の言い回しを、読みやすく直しました。&lt;/li&gt;&lt;/ul&gt;</description>
+      <enclosure url="https://github.com/futaba3/homebrew-nagame/releases/download/v1.2.0/Nagame-1.2.0.dmg" type="application/octet-stream" sparkle:edSignature="TOxaQEsYHqOFQV9/2t5BVJpjaDWDrYN+HpLMogEfC6vOuq3QG5bqf3amevZCEkFRBDnA//jWaTGQDajWsZpKDg==" length="2089944" />
+    </item>
+  </channel>
+</rss>

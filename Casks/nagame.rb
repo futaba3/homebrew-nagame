@@ -1,6 +1,6 @@
 cask "nagame" do
-  version "1.1.0"
-  sha256 "c525b270ffb3acf091e27c72aec141a52a6c78019e6b5827f681420c770e48b1"
+  version "1.2.0"
+  sha256 "fd11a67cca8d2fbf23f59d735a21aa6e941ce577dd3ae099119cf59d1739204f"
 
   # dmg は tap リポジトリ（futaba3/homebrew-nagame）の Release に置く
   url "https://github.com/futaba3/homebrew-nagame/releases/download/v#{version}/Nagame-#{version}.dmg"
@@ -16,6 +16,10 @@ cask "nagame" do
 
   # 最小動作環境は Xcode プロジェクトの MACOSX_DEPLOYMENT_TARGET (15.6) に合わせる
   depends_on macos: :sequoia
+
+  # アプリ内で Sparkle が自分を更新する（docs/design/in-app-update.md）。
+  # brew upgrade は（--greedy を付けない限り）Nagame を飛ばし、アプリの更新と食い違わない
+  auto_updates true
 
   app "Nagame.app"
 
