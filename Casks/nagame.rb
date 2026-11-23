@@ -15,7 +15,7 @@ cask "nagame" do
   end
 
   # 最小動作環境は Xcode プロジェクトの MACOSX_DEPLOYMENT_TARGET (15.6) に合わせる
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Nagame.app"
 
